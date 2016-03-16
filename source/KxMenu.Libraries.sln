@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+VisualStudioVersion = 14.0.23107.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KxMenu.Bindings.XamarinIOS", "KxMenu.Bindings.XamarinIOS\KxMenu.Bindings.XamarinIOS.csproj", "{30E8E09B-B1E1-4808-9518-6B15A063FB70}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KxMenu.Bindings.XamarinIOS-Classic", "KxMenu.Bindings.XamarinIOS-Classic\KxMenu.Bindings.XamarinIOS-Classic.csproj", "{010FCF79-7B2D-4278-A804-0E3080850709}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KxMenu.Port.XamarinIOS", "KxMenu.Port.XamarinIOS\KxMenu.Port.XamarinIOS.csproj", "{E03E7B22-6FB4-4B3F-867E-A6226727EAE8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KxMenu.Port.XamarinIOS-Classic", "KxMenu.Port.XamarinIOS-Classic\KxMenu.Port.XamarinIOS-Classic.csproj", "{731C4494-B590-4841-AA08-0D62227628EA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{010FCF79-7B2D-4278-A804-0E3080850709}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{010FCF79-7B2D-4278-A804-0E3080850709}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{010FCF79-7B2D-4278-A804-0E3080850709}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{010FCF79-7B2D-4278-A804-0E3080850709}.Release|Any CPU.Build.0 = Release|Any CPU
+		{30E8E09B-B1E1-4808-9518-6B15A063FB70}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{30E8E09B-B1E1-4808-9518-6B15A063FB70}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{30E8E09B-B1E1-4808-9518-6B15A063FB70}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{30E8E09B-B1E1-4808-9518-6B15A063FB70}.Release|Any CPU.Build.0 = Release|Any CPU
+		{731C4494-B590-4841-AA08-0D62227628EA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{731C4494-B590-4841-AA08-0D62227628EA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{731C4494-B590-4841-AA08-0D62227628EA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{731C4494-B590-4841-AA08-0D62227628EA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E03E7B22-6FB4-4B3F-867E-A6226727EAE8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E03E7B22-6FB4-4B3F-867E-A6226727EAE8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E03E7B22-6FB4-4B3F-867E-A6226727EAE8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E03E7B22-6FB4-4B3F-867E-A6226727EAE8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

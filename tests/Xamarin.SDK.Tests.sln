@@ -1,0 +1,32 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "UITests-AcceptanceTests", "UITests-AcceptanceTests", "{DFFC3558-A18A-48B0-896E-1B5E7A78E354}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "UnitTests", "UnitTests", "{009B7B12-FC99-4DEB-8104-A9E84BBD5651}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MetaioSDK.App.XamarinAndroid.UITests", "UITests-AcceptanceTests\MetaioSDK.App.XamarinAndroid.UITests\MetaioSDK.App.XamarinAndroid.UITests.csproj", "{584E4621-9F02-438F-8C89-8C6B8B6873D9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "bindings", "bindings", "{EB32C40B-DA53-4FBE-8ECF-D408BEC39781}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "samples", "samples", "{0E76577D-5C25-40CE-A0B0-85A3C63B7319}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{584E4621-9F02-438F-8C89-8C6B8B6873D9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{584E4621-9F02-438F-8C89-8C6B8B6873D9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{584E4621-9F02-438F-8C89-8C6B8B6873D9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{584E4621-9F02-438F-8C89-8C6B8B6873D9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{584E4621-9F02-438F-8C89-8C6B8B6873D9} = {DFFC3558-A18A-48B0-896E-1B5E7A78E354}
+	EndGlobalSection
+EndGlobal

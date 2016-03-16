@@ -1,0 +1,43 @@
+%YAML 1.2
+---
+name: KxMenu 
+version: "0.0.0.1"
+id: kxmenu
+publisher: HolisticWare LLC
+publisher-url: http://holisticware.net
+summary: 
+  KxMenu Xamarin.iOS Component
+getting-started: 
+  ./GettingStarted.md
+details: 
+  ./Details.md
+license: 
+  ./License.md
+icons: 
+  - ./icons/icon_128x128.png
+  - ./icons/icon_512x512.png
+screenshots:
+  - ./screenshots/screenshot_01.jpg
+  - ./screenshots/screenshot_02.jpg
+  - ./screenshots/screenshot_03.jpg
+  - ./screenshots/screenshot_04.jpg
+build:
+    - ../source/KxMenu.Libraries.sln 
+    - ../samples/Samples.KxMenu.sln
+    - ../samples/Sample.Component.KxMenu.sln
+    - ../samples/Sample.Component.KxMenu-Classic.sln
+libraries: 
+#  android: 
+#    - ../source/KxMenu.Bindings.XamarinIOS/bin/Debug/KxMenu.Bindings.dll
+  ios: 
+    - ../source/KxMenu.Bindings.XamarinIOS-Classic/bin/Release/KxMenu.Bindings.dll
+  ios-unified: 
+    - ../source/KxMenu.Bindings.XamarinIOS/bin/Release/KxMenu.Bindings.dll
+samples:
+#  Android Sample: 
+#    - ../samples/Samples.JSch.sln
+  iOS Sample: 
+    ../samples/Sample.Component.KxMenu.sln
+  iOS Classic Sample: 
+    ../samples/Sample.Component.KxMenu-Classic.sln
+ 
